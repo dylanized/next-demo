@@ -4,7 +4,7 @@ FROM node:alpine as test
 WORKDIR /app
 
 # set env vars
-ENV NODE_ENV production
+ENV NODE_ENV test
 
 # expose port
 EXPOSE 3000
